@@ -392,4 +392,8 @@ template {
   font-weight: 700;
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.header-container .navbar-container {
+  max-width: 960px;
 }/*# sourceMappingURL=styles.css.map */
