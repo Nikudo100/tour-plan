@@ -400,4 +400,8 @@ template {
 
 .navbar-container {
   width: 960px;
+}
+
+.search-input {
+  width: 240px;
 }/*# sourceMappingURL=styles.css.map */
