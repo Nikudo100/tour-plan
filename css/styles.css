@@ -347,6 +347,7 @@ template {
   width: 285px;
   height: 40px;
   border: 0px;
+  outline: none;
 }
 .search .search-button {
   background-color: #EC1F46;
