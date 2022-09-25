@@ -486,11 +486,10 @@ template {
   .navbar {
     height: 60px;
   }
+  .navbar .navbar-container .navbar-list {
+    padding-top: 20px;
+  }
 }
-.navbar .navbar-container .navbar-list {
-  padding-top: 20px;
-}
-
 @media screen and (max-width: 600px) {
   .navbar, .navbar-container, .navbar-list {
     display: none;
@@ -524,4 +523,26 @@ template {
     display: flex;
     justify-content: space-between;
   }
+}
+.breadcrumb-container {
+  width: 1110px;
+  margin: auto;
+  height: 50px;
+}
+
+.brcr-list {
+  padding: 15px 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.brcr-list-link {
+  text-decoration: none;
+  color: #0A223D;
+  list-style-type: none;
+}
+.brcr-list-link::after {
+  content: "/";
+  margin: 0 4px;
 }/*# sourceMappingURL=styles.css.map */
