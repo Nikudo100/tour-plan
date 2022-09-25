@@ -331,21 +331,25 @@ template {
 .search {
   margin-top: 44px;
   margin-left: 108px;
-  width: 350px;
+  height: 40px;
+  position: relative;
+  border-radius: 6px;
+  background-color: #F5FAFE;
 }
 .search .search-input {
   background-color: #F5FAFE;
-  border-radius: 6px;
+  border-radius: 6px 0 0 6px;
+  overflow: hidden;
+  width: 285px;
   height: 40px;
-  width: 340px;
   border: 0px;
 }
 .search .search-button {
   background-color: #EC1F46;
-  height: 40px;
+  height: 100%;
   width: 65px;
+  margin-left: -3px;
   border: 0;
-  margin-left: -65px;
   border-radius: 0 6px 6px 0;
 }
 
