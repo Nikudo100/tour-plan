@@ -1,5 +1,6 @@
 @media screen and ( max-width: 1200px  )
-
+  .menu-dopdown-btn
+    display: none
   .header-container
     width: 960px
   .navbar-container
@@ -14,6 +15,8 @@
     margin-left: 250px
 
 @media screen and ( max-width: 992px  )
+  .menu-dopdown-btn
+    display: none
   .header-container
     width: 760px
   .navbar-container
@@ -33,6 +36,8 @@
     font-size: 13px
 
 @media screen and ( max-width: 768px  )
+  .menu-dopdown-btn
+    display: none
   .header-container
     width: 600px
   .navbar-container
@@ -58,3 +63,30 @@
     height: 60px
 .navbar .navbar-container .navbar-list
   padding-top: 20px
+
+@media screen and ( max-width: 600px  )
+  .navbar, .navbar-container, .navbar-list
+    display: none
+  .search, .search-input, .user, .user-name
+    display: none
+  .logo
+    margin-left: 20px
+    margin-top: 28px
+  .header-container, .header-wrapper
+    width: auto
+    height: 70px
+  .menu-dopdown-btn
+    width: 16px
+    height: 11px
+    margin-top: 29px
+    display: flex
+    justify-content: center
+    margin-right: 20px
+    border: none
+    background-color: white
+    cursor: pointer
+  .menu-dropout
+    align-items: center
+  .header-wrapper
+    display: flex
+    justify-content: space-between
