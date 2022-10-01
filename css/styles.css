@@ -640,4 +640,164 @@ template {
   font-size: 14px;
   font-weight: bold;
   margin-left: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .hotel-container {
+    width: 960px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hotel-container {
+    width: 760px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hotel-container {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hotel-container {
+    width: 90%;
+    height: auto;
+    padding-bottom: 18px;
+  }
+  .rate-wrapper {
+    display: none;
+  }
+  .hotel-offer {
+    width: 70px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hotel-container {
+    width: 90%;
+    height: auto;
+    padding-bottom: 18px;
+  }
+  .rate-wrapper {
+    display: none;
+  }
+  .hotel-offer {
+    width: 70px;
+    height: 20px;
+  }
+  .hotel-offer-wrapper {
+    position: relative;
+    right: 270px;
+    bottom: 30px;
+  }
+  .stars {
+    position: relative;
+    left: 270px;
+    bottom: 7px;
+  }
+}
+.hotel-details {
+  background-color: #F5FAFE;
+}
+
+.hotel-details-container {
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-price {
+  width: 350px;
+  height: 210px;
+  background-color: #0A223D;
+  border: 1px solid #0A223D;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 27px;
+}
+
+.price-wrapper-up {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 29px;
+  padding-left: 26px;
+  padding-bottom: 9px;
+}
+
+.price-wrapper-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-wrapper-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-wrapper-down {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 29px;
+  padding-left: 26px;
+  padding-bottom: 17px;
+}
+
+.price-text-from {
+  padding-top: 29px;
+  font-size: 10px;
+  stroke: solid #000;
+  font-family: "Nunito", sans-serif;
+}
+
+.price-text-dollar {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+}
+
+.price-text-per {
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+}
+
+.price-text-guest {
+  padding-top: 33px;
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+}
+
+.price-text-room {
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+}
+
+.call-center {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+}
+
+.tel {
+  font-size: 18px;
+  text-decoration: none;
+  color: #eee;
+  font-family: "Nunito", sans-serif;
+}
+
+.view-options {
+  margin-right: 29px;
+  margin-left: 26px;
+  width: 295px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #EC1F46;
+  border: 1px solid #EC1F46;
+  border-radius: 4px;
+  color: #eee;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.hotel-photos {
+  margin-bottom: 70px;
 }/*# sourceMappingURL=styles.css.map */
