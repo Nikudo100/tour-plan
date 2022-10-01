@@ -571,4 +571,73 @@ template {
   .breadcrumb-container {
     margin-left: 20px;
   }
+}
+.hotel {
+  background-color: #F5FAFE;
+}
+
+.hotel-container {
+  width: 1110px;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-info {
+  font-size: 24px;
+}
+
+.hotel-name {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.hotel-name-up {
+  font-weight: bold;
+}
+
+.hotel-offer-wrapper {
+  min-width: 70px;
+  height: 20px;
+  background-color: #EC1F46;
+  text-align: center;
+  border: 1px solid #EC1F46;
+  border-radius: 5px;
+  margin-left: 14px;
+  margin-top: 4px;
+}
+
+.hotel-offer {
+  display: flex;
+  font-size: 10px;
+  color: #fff;
+  padding: 3px 9px;
+}
+
+.hotel-details {
+  font-size: 12px;
+}
+
+.rate-wrapper {
+  width: 65px;
+  height: 40px;
+  background-color: #EC1F46;
+  border: 1px solid #EC1F46;
+  border-radius: 5px;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rate-wrapper-text {
+  font-size: 8px;
+  color: #fff;
+  margin-left: 7px;
+}
+.rate-wrapper-rating {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
 }/*# sourceMappingURL=styles.css.map */
