@@ -800,4 +800,44 @@ template {
 
 .hotel-photos {
   margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+  .hotel-details-container {
+    width: 960px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hotel-details-container {
+    width: 760px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hotel-details-container {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hotel-details-container {
+    width: 90%;
+    height: auto;
+    padding-bottom: 18px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hotel-details-container {
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+  .hotel-photo-slider {
+    width: 100%;
+    margin-bottom: -50px;
+  }
+  .hotel-price {
+    width: 100%;
+  }
+  .location {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
