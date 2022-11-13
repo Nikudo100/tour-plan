@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css"> 
 </head>
 <body>
 <!-- header start -->
@@ -91,7 +92,23 @@
 <!-- /.hotel-info start -->
 <section class="hotel-details">
   <div class="hotel-details-container">
-    <div class="hotel-photos"> <img src="/img/Slider.png" alt="GRAND_HILTON_HOTEL" class="hotel-photo-slider"></div>
+    <div class="hotel-photos"> 
+      <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/Slider.jpg" alt="HILTON"> </div>
+        <div class="swiper-slide"><img src="img/Slider.jpg" alt="HILTON"></div>
+        <div class="swiper-slide"><img src="img/Slider.jpg" alt="HILTON"></div>
+        
+      </div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"> </div>
+      <div class="swiper-button-next"> </div>
+ 
+    </div>
+</div>
     <div class="hotel-details-left">
       <div class="hotel-price">
         <div class="price-wrapper-up">
@@ -241,6 +258,7 @@
 </footer>
 <!-- footer end -->
 -->
-
+<script src="js/swiper-bundle.min.js "></script>
+<script src="js/main.js"></script>
 </body>
 </html>
