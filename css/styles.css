@@ -1015,45 +1015,4 @@ template {
   border: 0px;
   background-color: #EC1F46;
   color: white;
-}
-
-.subscribe-info {
-  margin-right: 108px;
-}
-
-.subscribe-info {
-  margin-right: 30px;
-  width: 150px;
-}
-
-.subscribe-textup {
-  font-size: 20px;
-  padding-top: 11px;
-}
-
-.subscribe-textdown {
-  font-size: 26px;
-}
-
-.subscribe-input {
-  width: 250px;
-  margin-left: 35px;
-}
-
-.subscribe-content {
-  display: block;
-  padding-left: 20px;
-}
-
-.subscribe-textup {
-  font-size: 20px;
-}
-
-.subscribe-textdown {
-  font-size: 30px;
-}
-
-.subscribe-input {
-  margin-left: 0;
-  width: 265px;
 }/*# sourceMappingURL=styles.css.map */
