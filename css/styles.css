@@ -900,6 +900,33 @@ template {
     width: 90%;
     height: auto;
     padding-bottom: 18px;
+    display: block;
+  }
+  .hotel-details-left-container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+  }
+  .hotel-price {
+    width: 260px;
+  }
+  .view-options {
+    width: 200px;
+  }
+  .location {
+    width: 260px;
+  }
+  .swiper {
+    width: 540px;
+    height: 320px;
+  }
+  .hotel-slide {
+    width: 540px;
+    height: 300px;
+  }
+  .hotel-photos {
+    margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 375px) {
