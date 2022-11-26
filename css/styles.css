@@ -984,6 +984,7 @@ template {
   background-image: url("/img/subscribe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .subscribe-wrapper::before {
   content: "";
@@ -1178,4 +1179,96 @@ template {
   .slider__txt {
     width: 280px;
   }
+}
+.activities {
+  background-color: #F5FAFE;
+  height: 500px;
+}
+
+.activities-container {
+  width: 1110px;
+  margin: auto;
+  margin-bottom: 98px;
+}
+
+.activities-header {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+
+.activities-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-one, .activity-two, .activity-tree, .activity-four {
+  width: 255px;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.activity-one {
+  background-image: url("/img/act1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 75%;
+  border-radius: 6px;
+}
+
+.act-info {
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(53, 53, 53));
+}
+
+.activity-two {
+  background-image: url("/img/act2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 75%;
+  border-radius: 6px;
+}
+
+.activity-tree {
+  background-image: url("/img/act3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 75%;
+  border-radius: 6px;
+}
+
+.activity-four {
+  background-image: url("/img/act4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 75%;
+  border-radius: 6px;
+}
+
+.activity-text {
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 26px;
+  margin-right: 26px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.activity-button {
+  color: white;
+  font-size: 12px;
+  font-family: Nunito;
+  font-weight: 600;
+  background-color: #EC1F46;
+  width: 100px;
+  height: 30px;
+  margin-bottom: 24px;
+  margin-left: 26px;
+  border: 1px #EC1F46;
+  border-radius: 4px;
 }/*# sourceMappingURL=styles.css.map */
