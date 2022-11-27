@@ -1,0 +1,46 @@
+/* Слайдер: */
+.slider-review {
+  width: 1074px;
+
+  /* Центрируем по горизонтали: */
+  margin: auto;
+  height: 325px;
+}
+
+.item-wrapper {
+  width: 1074px;
+  height: 325px;
+}
+.item-profile {
+  width: 1074px;
+  height: 325px;
+}
+
+/* Кнопки назад и вперёд: */
+.slider-review .previous,
+.slider-review .next {
+  /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+  cursor: pointer;
+  /* Положение элемента задаётся относительно границ браузера: */
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  /* Оформление самих кнопок: */
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  /* Плавное появление фона при наведении курсора: */
+  transition: 0.6s ease;
+  /* Скругление границ: */
+  border-radius: 0 3px 3px 0;
+}
+
+.slider-review .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+

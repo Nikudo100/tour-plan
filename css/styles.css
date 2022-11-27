@@ -1581,4 +1581,149 @@ template {
   .other {
     display: none;
   }
+}
+.footer {
+  background-color: #0A223D;
+}
+
+.footer-container {
+  width: 1110px;
+  margin: auto;
+  padding-top: 108px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 32% 18%;
+  grid-template-rows: repeat(3, 1fl);
+  width: 1110px;
+  grid-row-gap: 90px;
+}
+
+.footer-txt {
+  color: #BDBDBD;
+  font-size: 14px;
+}
+
+.footer-categories-list {
+  padding-left: 0;
+}
+
+.footer-info-list {
+  padding-left: 0;
+}
+
+.footer-legal-list {
+  padding-left: 0;
+}
+
+.fb-list {
+  padding-left: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #BDBDBD;
+  cursor: pointer;
+  display: inline;
+}
+
+.footer-txt-short {
+  color: #BDBDBD;
+  width: 448px;
+  display: inline;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-contacts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fcc-one {
+  display: flex;
+}
+
+.fcc-two {
+  display: flex;
+}
+
+.fcc-three {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-txt-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #BDBDBD;
+}
+
+.footer-header {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.footer-header-social {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 0;
+  display: inline;
+  margin-right: 42px;
+}
+
+.footer-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 17px;
+  margin-bottom: 22px;
+}
+
+.footer-form-txt {
+  color: #BDBDBD;
+  font-size: 12px;
+}
+
+.footer-tx {
+  color: white;
+  font-size: 12px;
+}
+
+.footer-logo-white {
+  font-size: 64px;
+  font-family: Luckiest Guy;
+  color: white;
+  margin: 0;
+  line-height: 64px;
+}
+
+.footer-logo-pink {
+  font-size: 64px;
+  font-family: Luckiest Guy;
+  color: #EC1F46;
+  margin: 0;
+  line-height: 64px;
+}
+
+.footer-contacts {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footer-form {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.footer-bottom-one {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }/*# sourceMappingURL=styles.css.map */
