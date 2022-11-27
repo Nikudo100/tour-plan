@@ -884,10 +884,9 @@ template {
   }
   .hotel-price {
     width: 300px;
-    margin-top: 40px;
   }
   .view-options {
-    width: 200px;
+    width: 250px;
   }
   .location {
     width: 280px;
@@ -944,10 +943,10 @@ template {
   }
   .hotel-photo-slider {
     width: 100%;
-    margin-bottom: -50px;
   }
   .hotel-price {
     width: 100%;
+    margin-top: 40px;
   }
   .location {
     width: 100%;
@@ -1229,6 +1228,7 @@ template {
 
 .act-info {
   background-image: linear-gradient(to bottom, rgba(87, 86, 86, 0), rgb(53, 53, 53));
+  border-radius: 6px;
 }
 
 .activity-two {
@@ -1282,4 +1282,89 @@ template {
 .activity-button:hover {
   color: #EC1F46;
   background-color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .activities-container {
+    width: 960px;
+  }
+  .activity-one, .activity-two, .activity-tree, .activity-four {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activities {
+    height: auto;
+  }
+  .activities-container {
+    width: 760px;
+  }
+  .activity-one, .activity-two {
+    width: 339px;
+    margin-bottom: 20px;
+  }
+  .activity-tree, .activity-four {
+    width: 339px;
+    margin-bottom: 70px;
+  }
+  .activities-list-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activities {
+    height: auto;
+  }
+  .activities-container {
+    width: 600px;
+  }
+  .activity-one, .activity-two {
+    width: 290px;
+    margin-bottom: 20px;
+  }
+  .activity-tree, .activity-four {
+    width: 290px;
+    margin-bottom: 70px;
+  }
+  .activities-list-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .activities {
+    height: auto;
+  }
+  .activities-container {
+    width: 90%;
+  }
+  .activity-one, .activity-two {
+    width: 255px;
+    margin-bottom: 20px;
+  }
+  .activity-tree, .activity-four {
+    width: 255px;
+    margin-bottom: 70px;
+  }
+  .activities-list-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 375px) {
+  .activities {
+    height: auto;
+  }
+  .activities-container {
+    width: 90%;
+  }
+  .activity-one, .activity-two, .activity-tree {
+    width: 335px;
+    margin-bottom: 20px;
+  }
+  .activity-four {
+    width: 335px;
+    margin-bottom: 70px;
+  }
+  .activities-list-container {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=styles.css.map */
