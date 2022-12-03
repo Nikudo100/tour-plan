@@ -10,3 +10,20 @@ const swiper = new Swiper('.swiper', {
   },
 
 });
+
+var menuButton = document.querySelector(".menu-dopdown-btn");
+menuButton.addEventListener('click', function () {
+  console.log("Клик по кнопке меню")
+  document
+    .querySelector('.navbar')
+    .classList.toggle('navbar--visible')
+  document
+    .querySelector('.navbar-container')
+    .classList.toggle('navbar-container--visible')
+  document
+    .querySelector('.navbar-list')
+    .classList.toggle('navbar-list--visible')
+
+
+    
+});

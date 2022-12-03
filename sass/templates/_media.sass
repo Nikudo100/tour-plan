@@ -67,8 +67,13 @@
 @media screen and ( max-width: 600px  )
   .navbar, .navbar-container, .navbar-list
     display: none
-  .search, .search-input, .user, .user-name
-    display: none
+    position: fixed
+    top: 70px
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 99
+
   .logo
     margin-left: 20px
     margin-top: 28px
@@ -90,3 +95,33 @@
   .header-wrapper
     display: flex
     justify-content: space-between
+  .header-wrapper--mobile_fixed
+    position: fixed
+    background-color: white
+    z-index: 99
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+  .navbar--visible
+    display: block
+
+  .navbar-container--visible
+    display: block
+  .navbar-list--visible
+    background-color: #0A223D
+    flex-direction: column
+  .menu-link-last
+    color: white
+    text-decoration: none
+    font-weight: 700
+    font-size: 14px
+    margin-left: 250px
+
+  .menu-link
+    margin-left: 250px
+    font-size: 14px
+    margin-bottom: 20px
+
+  .user-name--mobile_hidden, .user--mobile_hidden, .search--mobile_hidden
+    display: none
