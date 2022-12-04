@@ -503,11 +503,13 @@
     <!-- footer-contacts end -->
     <div class="footer-form">
       <h4 class="footer-header">Send us a message</h4>
-      <input type="text" class="footer-input" placeholder="Your Full Name*">
-      <input type="text" class="footer-input-left" placeholder="Phone Number*">
-      <textarea class="footer-input-big" cols="30" rows="10" placeholder="Message"></textarea>
+      <form action="send.php" method="POST" >
+      <input type="text" class="footer-input" placeholder="Your Full Name*" name="name">
+      <input type="text" class="footer-input-left" placeholder="Phone Number*" name="phone">
+      <textarea class="footer-input-big" cols="30" rows="10" placeholder="Message" name="message"></textarea>
       <button class="footer-button">Send</button>
       <p class="footer-form-txt">* Required Fields</p>
+      </form>
     </div>
     <!-- footer-form end -->
     <div class="footer-bottom-one">
@@ -525,7 +527,10 @@
   </div>
 </footer>
 <!-- footer end -->
-
+<div class="modal">
+  <div class="modal__overlay"></div>
+  <div class="modal__dialogue"></div>
+</div>
 <script src="js/swiper-bundle.min.js "></script>
 <script src="js/main.js"></script>
 </body>
