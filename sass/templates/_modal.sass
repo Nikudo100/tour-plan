@@ -1,0 +1,82 @@
+.modal__overlay
+  position: fixed
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  background-color: rgba(0, 143, 223, 0.39)
+  z-index: 100
+  visibility: hidden
+  transition: opacity 0.2s
+.modal__overlay--visible
+  visibility: visible
+  opacity: 1
+
+.modal__dialogue
+  position: fixed
+  top: 50%
+  left: 50%
+  padding: 33px 88px
+  background-color: #0A223D
+  border-radius: 8px
+  color: White
+  z-index: 101
+  max-width: 478px
+  transform: translate(-50%, -50%)
+  visibility: hidden
+  transition: opacity 0.2s
+.modal__dialogue-visible
+  visibility: visible
+  opacity: 1
+
+.modal__close
+  position: fixed
+  top: 17px
+  right: 17px
+  text-decoration: none
+  cursor: pointer
+
+.modal-input
+  width: 302px
+  height: 50px
+  border-radius: 4px
+  padding-left: 22px
+  margin-right: 30px
+  margin-bottom: 15px
+
+.modal-input-left
+  width: 302px
+  height: 50px
+  border-radius: 4px
+  padding-left: 22px
+  margin-bottom: 15px
+
+.modal-input-big
+  width: 302px
+  height: 123px
+  padding-top: 18px
+  padding-left: 23px
+  padding-right: 23px
+  padding-top: 18px
+  border-radius: 4px
+  margin-bottom: 22px
+
+.modal-button
+  width: 160px
+  height: 50px
+  background-color: #EC1F46
+  color: white
+  font-size: 12px
+  border-radius: 4px
+  border-color: #EC1F46
+  display: inline
+  &:hover
+    color: #EC1F46
+    background-color: white
+
+.modal-form-txt
+  display: inline
+  font-size: 12px
+  margin-left: 35px
+.modal-header
+  text-align: center
