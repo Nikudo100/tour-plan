@@ -26,13 +26,10 @@ menuButton.addEventListener('click', function () {
     .classList.toggle('navbar-list--visible')
 
 
-<<<<<<< HEAD
    
 });
-AOS.init(); 
-=======
     
-});
+
 
   var modalButton = $('[data-toggle="modal"]');
   var closeModalButton = $('.modal__close');
@@ -53,5 +50,5 @@ AOS.init();
     modalDialogue.removeClass("modal__dialogue-visible");
 
   }
+  AOS.init(); 
 });
->>>>>>> 6fe10f9a5c6ad57811b5f84a4034e0a4c8536100
