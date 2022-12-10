@@ -1,4 +1,5 @@
-const swiper = new Swiper('.swiper', {
+$( document ).ready(function() {
+  const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
 
@@ -25,6 +26,32 @@ menuButton.addEventListener('click', function () {
     .classList.toggle('navbar-list--visible')
 
 
+<<<<<<< HEAD
    
 });
 AOS.init(); 
+=======
+    
+});
+
+  var modalButton = $('[data-toggle="modal"]');
+  var closeModalButton = $('.modal__close');
+  modalButton.on("click", openModal);
+  closeModalButton.on("click", closeModal);
+  function openModal() {
+    var modalOverlay = $(".modal__overlay");
+    var modalDialogue = $(".modal__dialogue");
+    modalOverlay.addClass("modal__overlay--visible");
+    modalDialogue.addClass("modal__dialogue-visible");
+
+  }
+  function closeModal(event) {
+    event.preventDefault();
+    var modalOverlay = $(".modal__overlay");
+    var modalDialogue = $(".modal__dialogue");
+    modalOverlay.removeClass("modal__overlay--visible");
+    modalDialogue.removeClass("modal__dialogue-visible");
+
+  }
+});
+>>>>>>> 6fe10f9a5c6ad57811b5f84a4034e0a4c8536100
