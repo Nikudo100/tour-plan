@@ -25,5 +25,6 @@ menuButton.addEventListener('click', function () {
     .classList.toggle('navbar-list--visible')
 
 
-    
+   
 });
+AOS.init(); 
